@@ -1,0 +1,26 @@
+object LoginView: TLoginView
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 480
+  ClientWidth = 640
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object WebBrowser1: TWebBrowser
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object FacebookLogin1: TFacebookLogin
+    OnLoginSuccess = FacebookLogin1LoginSuccess
+    ClientId = '445601789647959'
+    WebBrowser = WebBrowser1
+    Left = 128
+    Top = 96
+  end
+end

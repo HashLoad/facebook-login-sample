@@ -1,0 +1,26 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2019-09-24T20:03:57.2378548-03:00",
+	"installedModules": {
+		"github.com/hashload/facebook-login": {
+			"name": "facebook-login",
+			"version": "0.1.0",
+			"hash": "714f7442ac875e4b455e9811de671aa5",
+			"artifacts": {
+				"dcp": [
+					"FacebookLogin.bpi",
+					"FacebookLogin.dcp",
+					"FacebookLogin.lib"
+				],
+				"dcu": [
+					"FMX.FacebookLogin.dcu"
+				],
+				"bpl": [
+					"FacebookLogin.bpl"
+				]
+			},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
